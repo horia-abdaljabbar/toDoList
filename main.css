@@ -1,0 +1,50 @@
+.list-card {
+  width: 20%;
+  margin: auto;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+  padding: 20px 40px;
+  margin-top: 50px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(215, 225, 151)
+  );
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  border-radius: 20px;
+}
+
+.list-card .listInput,
+.list-card ul li {
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: none;
+}
+.list-card h2 {
+  text-align: center;
+}
+
+.list-card ul {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.list-card ul li {
+  width: 100%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+  background-color: rgb(255, 255, 255);
+}
+
+.checked {
+  text-decoration-line: line-through;
+}
